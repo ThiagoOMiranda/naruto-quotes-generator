@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/naruto-quotes-generator/static/css/main.4b970676.css",
-    "main.js": "/naruto-quotes-generator/static/js/main.2ba5563c.js",
+    "main.js": "/naruto-quotes-generator/static/js/main.841dea53.js",
     "static/media/konoha.mp3": "/naruto-quotes-generator/static/media/konoha.7b50f33676671cfdbb7e.mp3",
     "static/media/background.jpg": "/naruto-quotes-generator/static/media/background.2b6c4aa6bfa2469c9fb3.jpg",
     "static/media/jiraiya_02.png": "/naruto-quotes-generator/static/media/jiraiya_02.6a9f97191da2699249d3.png",
@@ -95,10 +95,10 @@
     "static/media/jutsu.mp3": "/naruto-quotes-generator/static/media/jutsu.58b95cd367f1e6eb3072.mp3",
     "index.html": "/naruto-quotes-generator/index.html",
     "main.4b970676.css.map": "/naruto-quotes-generator/static/css/main.4b970676.css.map",
-    "main.2ba5563c.js.map": "/naruto-quotes-generator/static/js/main.2ba5563c.js.map"
+    "main.841dea53.js.map": "/naruto-quotes-generator/static/js/main.841dea53.js.map"
   },
   "entrypoints": [
     "static/css/main.4b970676.css",
-    "static/js/main.2ba5563c.js"
+    "static/js/main.841dea53.js"
   ]
 }
