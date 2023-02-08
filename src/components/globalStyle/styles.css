@@ -1,0 +1,54 @@
+.blink {
+  animation: blink-animation 0.75s steps(3, start) infinite;
+}
+
+.move {
+  animation: move 8s linear infinite;
+}
+
+.position {
+  transform: translateX(-53%) !important;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes move {
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes change {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.change-appear,
+.change-enter,
+.change-exit {
+  transform: scaleX(1);
+}
+
+.change-appear-active,
+.change-enter-active,
+.change-exit-active {
+  transform: scaleX(1.1);
+  transition: ease-in-out 0.5s;
+}
+
+.change-appear-done,
+.change-enter-done,
+.change-exit-done {
+  transform: scaleX(1);
+}
